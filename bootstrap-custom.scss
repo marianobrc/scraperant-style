@@ -37,6 +37,13 @@ $btn-border-radius:           24px;
 $btn-border-radius-lg:        36px;
 $btn-border-radius-sm:        12px;
 $btn-font-weight:             $font-weight-semibold;
+$btn-font-size-lg:            24px;
+$btn-height-lg:               56px;
+.cta-btn-lg {
+  height: $btn-height-lg;
+  border-radius: $btn-border-radius-lg;
+  font-size: $btn-font-size-lg;
+}
 
 // Nav Links
 $nav-link-padding-y:                .5rem;
