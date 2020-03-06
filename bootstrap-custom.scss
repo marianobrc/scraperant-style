@@ -40,9 +40,9 @@ $btn-font-weight:             $font-weight-semibold;
 $btn-font-size-lg:            24px;
 $btn-height-lg:               56px;
 .cta-btn-lg {
-  height: $btn-height-lg;
-  border-radius: $btn-border-radius-lg;
-  font-size: $btn-font-size-lg;
+  height: $btn-height-lg !important;
+  border-radius: $btn-border-radius-lg !important;
+  font-size: $btn-font-size-lg !important;
 }
 
 // Nav Links
