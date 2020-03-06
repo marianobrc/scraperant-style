@@ -44,6 +44,10 @@ $btn-height-lg:               56px;
   border-radius: $btn-border-radius-lg !important;
   font-size: $btn-font-size-lg !important;
 }
+.cta-btn-lg-wide {
+  @extend .cta-btn-lg;
+  width: 100%;
+}
 
 // Nav Links
 $nav-link-padding-y:                .5rem;
