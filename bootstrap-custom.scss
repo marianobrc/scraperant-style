@@ -75,6 +75,14 @@ $navbar-light-disabled-color:       rgba($dark-blue, .3);
     }
   }
 
+// Forms
+$input-padding-y:                       0.92rem;
+$input-padding-x:                       1.25rem;
+$input-font-family:                     $font-family-sans-serif;
+$input-font-size:                       20px;
+$input-line-height:                     1.25;
+
+
 // Include Bootstrap and BootstrapVue SCSS files
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';
