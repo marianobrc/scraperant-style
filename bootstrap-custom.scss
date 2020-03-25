@@ -48,6 +48,12 @@ $btn-height-lg:               56px;
   @extend .cta-btn-lg;
   width: 100%;
 }
+.btn-disabled {
+  background-color: $gray-600!important;
+  border-color: $gray-600!important;
+  color: $white!important;
+  pointer-events: none!important;
+}
 
 // Nav Links
 $nav-link-padding-y:                .5rem;
