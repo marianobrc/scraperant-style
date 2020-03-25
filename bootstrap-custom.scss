@@ -26,6 +26,7 @@ $black:    #000;
 
 $red:      #F01C45;
 $dark-blue:#000066;
+$grey-disabled: #A4A5A8;
 $primary:   $red;
 $light:     $white;
 $dark:      $dark-blue;
@@ -49,8 +50,8 @@ $btn-height-lg:               56px;
   width: 100%;
 }
 .btn-disabled {
-  background-color: $gray-600!important;
-  border-color: $gray-600!important;
+  background-color: $grey-disabled!important;
+  border-color: $grey-disabled!important;
   color: $white!important;
   pointer-events: none!important;
 }
