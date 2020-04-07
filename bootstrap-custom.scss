@@ -31,6 +31,13 @@ $primary:   $red;
 $light:     $white;
 $dark:      $dark-blue;
 $navbar-light-color: $dark;
+$shadow-color: #0044FF;
+$bg-grey-color: #F9F9F9;
+$body-bg: $bg-grey-color;
+.bg-grey{
+  background-color: $bg-grey-color!important;
+}
+
 
 // Buttons
 $btn-padding-x:               35px;
