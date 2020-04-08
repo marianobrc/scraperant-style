@@ -22,7 +22,7 @@ $gray-600: #6c757d;
 $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
-$black:    #000;
+$black:    #000033;
 
 $red:      #F01C45;
 $dark-blue:#000066;
@@ -31,7 +31,7 @@ $primary:   $red;
 $light:     $white;
 $dark:      $dark-blue;
 $navbar-light-color: $dark;
-$shadow-color: #0044FF;
+$shadow-color: rgba(0, 68, 255, 0.03);
 $bg-grey-color: #F9F9F9;
 $body-bg: $bg-grey-color;
 .bg-grey{
